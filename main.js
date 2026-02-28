@@ -445,8 +445,9 @@ Teach concepts like:
 - Pawn structure
 - Initiative
 
-**Return ONLY valid JSON.**
-- No markdown.
+**Return ONLY valid JSON inside a single code block.**
+- Wrap the JSON in triple backticks with `json`.
+- No text before or after the code block.
 - No comments.
 - No explanation outside JSON.
 
@@ -494,3 +495,4 @@ $(document).ready(() => {
     init();
     loadLesson();
 });
+
