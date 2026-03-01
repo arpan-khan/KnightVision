@@ -409,6 +409,11 @@ Analyze the entire game carefully and generate a structured lesson JSON using EX
 
 ### Analysis Rules:
 
+**Identify the HUMAN player:**
+- Look at the PGN headers (White and Black).
+- If one player has "AI", "bot", "Stockfish", or "computer" in their name, or if it is obvious they are an engine, the HUMAN is the other player.
+- You must ONLY analyze and extract mistakes made by the HUMAN player. Do NOT point out mistakes made by the bot.
+
 **Identify ALL meaningful mistakes:**
 - Blunders (losing material or forced mate)
 - Tactical mistakes
