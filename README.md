@@ -13,11 +13,12 @@
 
 ## How to Use
 
-1. **Play a Game:** Play or find a game on Lichess / Chess.com and copy the raw **PGN**.
-2. **Copy the Prompt:** Click the "Copy AI Prompt" button on the UI to load the exact instructional template into your clipboard.
-3. **Generate the Lesson:** Paste the Prompt and your PGN into any conversational AI (like ChatGPT, Claude, or Gemini).
-4. **Load the Lesson:** Paste the generated JSON output back into KnightVision's text box and click **Load Lesson**.
-5. **Learn:** Click **Run Lesson** and watch the game unfold, pausing to teach you exactly where you went wrong!
+1. **Play a Game:** Go to [lichess.org](https://lichess.org/) > Play against a computer.
+2. **Get the PGN:** After a match click **Analysis board** > **Share & export** > Copy or download the PGN.
+3. **Copy the Prompt:** Click the "Copy AI Prompt" button on the UI to load the exact instructional template into your clipboard.
+4. **Generate the Lesson:** Paste the Prompt and your PGN into any conversational AI (like ChatGPT, Claude, or Gemini).
+5. **Load the Lesson:** Paste the generated JSON output back into KnightVision's text box and click **Load Lesson**.
+6. **Learn:** Click **Run Lesson** and watch the game unfolds, pausing to teach you exactly where you went wrong!
 
 ## Local Development
 

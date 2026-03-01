@@ -6,7 +6,7 @@ Analyze the entire game carefully and generate a structured lesson JSON using EX
 - Do NOT change field names.
 - Do NOT add extra fields.
 - Do NOT remove fields.
-- Do NOT output anything except valid JSON.
+- Do NOT output anything except a valid JSON code block.
 
 ### REQUIRED JSON FORMAT:
 
@@ -71,9 +71,8 @@ Teach concepts like:
 - Pawn structure
 - Initiative
 
-**Return ONLY valid JSON.**
-- No markdown.
+**Return ONLY valid JSON enclosed in a ```json code block.**
+- No explanation outside the code block.
 - No comments.
-- No explanation outside JSON.
 
 I will now provide the PGN. Analyze it deeply and generate the full lesson JSON.

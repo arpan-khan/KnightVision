@@ -380,7 +380,7 @@ Analyze the entire game carefully and generate a structured lesson JSON using EX
 - Do NOT change field names.
 - Do NOT add extra fields.
 - Do NOT remove fields.
-- Do NOT output anything except valid JSON.
+- Do NOT output anything except a valid JSON code block.
 
 ### REQUIRED JSON FORMAT:
 
@@ -445,11 +445,9 @@ Teach concepts like:
 - Pawn structure
 - Initiative
 
-**Return ONLY valid JSON inside a single code block.**
-- Wrap the JSON in triple backticks with `json`.
-- No text before or after the code block.
+**Return ONLY valid JSON enclosed in a \`\`\`json code block.**
+- No explanation outside the code block.
 - No comments.
-- No explanation outside JSON.
 
 I will now provide the PGN. Analyze it deeply and generate the full lesson JSON.`;
 
@@ -495,4 +493,3 @@ $(document).ready(() => {
     init();
     loadLesson();
 });
-
